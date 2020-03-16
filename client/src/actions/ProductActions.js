@@ -1,9 +1,9 @@
 import axios from "axios";
 import {PRODUCTS_FETCH,PRODUCT_CREATE,PRODUCT_FETCH,PRODUCT_UPDATE} from "./types";
 
-export const productFetch =id => {
+export const productFetch = id => {
     return dispatch => {
-        axios.get("http://localhost:3001/products").then(res => {
+        axios.get(`http://localhost:3001/products/${id}`).then(res => {
             // console.log(res.data);
           
            dispatch( {type : PRODUCT_FETCH, payload : res.data});
