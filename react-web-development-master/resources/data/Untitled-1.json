@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "สลัดผัก",
+      "unitPrice": "120",
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "ไก่ทอด",
+      "unitPrice": "90",
+      "thumbnail": "/images/product/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "บิงซู",
+      "unitPrice": "200",
+      "thumbnail": "/images/product/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "เฟรนฟราย",
+      "unitPrice": "140",
+      "thumbnail": "/images/product/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "สลัดเค้ก 3 ชั้นผัก",
+      "unitPrice": "200",
+      "thumbnail": "/images/product/5.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderDate": "2020-03-14T08:55:41.988Z",
+      "totalPrice": 120,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productName": "สลัดผัก",
+            "unitPrice": "120",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderDate": "2020-03-14T08:55:43.230Z",
+      "totalPrice": 90,
+      "orders": [
+        {
+          "product": {
+            "id": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "90",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "orderDate": "2020-03-14T08:55:44.798Z",
+      "totalPrice": 200,
+      "orders": [
+        {
+          "product": {
+            "id": 3,
+            "productName": "บิงซู",
+            "unitPrice": "200",
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "orderDate": "2020-03-14T12:53:06.796Z",
+      "totalPrice": 340,
+      "orders": [
+        {
+          "product": {
+            "id": 3,
+            "productName": "บิงซู",
+            "unitPrice": "200",
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "orderDate": "2020-03-14T12:53:09.745Z",
+      "totalPrice": 210,
+      "orders": [
+        {
+          "product": {
+            "id": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "90",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 2
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

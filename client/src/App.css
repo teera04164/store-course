@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'Prompt-Blod.ttf';
+    src: url('/fonts/Prompt-Blod'); 
+    
+}
+@font-face{
+    font-family: 'Prompt-Medium.ttf';
+    src: url('/fonts/Prompt-Medium'); 
+    
+}
+@font-face{
+    font-family: 'Prompt-Regular.ttf';
+    src: url('/fonts/Prompt-Regular'); 
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Prompt-Medium.ttf';
+}
+.title{
+    font-family: 'Prompt-Regular.ttf';
+}
